@@ -1,0 +1,43 @@
+.projects {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.tdBefore {
+  display: none;
+}
+th {
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(51, 5, 237) !important;
+  font-family: garamond;
+}
+
+td,
+strong,
+tr {
+  text-align: left !important;
+  font-family: var(--font-base);
+  font-size: 18px;
+  color: #000;
+  font-family: Cormorant;
+  padding: 1px 5px;
+  word-spacing: normal;
+}
+li {
+  list-style: none;
+  text-transform: none !important;
+  font-family: Cormorant;
+}
+caption {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: garamond;
+  color: #25d366;
+}
+table {
+  margin: 15px 10px 30px 15px;
+  border: 0px dotted #001;
+}
